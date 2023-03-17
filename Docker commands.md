@@ -1,13 +1,5 @@
 # UseFul Docker Commands
-Docker technology makes it possible to build, distribute, and run applications using containers. 
-A Container is a piece of software that packages the code and all of its dependencies so that the application can execute regardless of the environment. 
-The container encapsulates the program and its dependencies into a self-contained package that can operate anywhere. 
-The absence of physical hardware allows for more efficient use of computing resources. Containers provide virtualization at the operating system level. 
-Furthermore, developers may communicate more quickly without having to worry about which software dependencies they need to install.
-A container is a runnable image instance. An image is a read-only template containing Docker container creation instructions.
-The Docker API or CLI can be used to create, start, stop, move, or destroy containers. A single container can be connected to one or more networks, 
-and storage can be attached to it. A new picture can also be produced based on the container’s current state. 
-Containers can be shared, guaranteeing that everyone who communicates with it receives the same container and operates in the same manner. 
+Docker technology enables the building, distribution, and execution of applications using containers, which package the application code and dependencies for portability and efficient use of computing resources. Containers provide operating system-level virtualization and can be created, started, stopped, moved, or destroyed using the Docker API or CLI. Containers can be connected to networks and storage, and their current state can be used to create new images. Containers can be shared, ensuring consistent behavior across multiple environments. Below are some of the most useful docker commands.
 
 
 
