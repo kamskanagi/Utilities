@@ -39,3 +39,14 @@ Docker technology enables the building, distribution, and execution of applicati
 - `docker-compose down`: Stop and remove the containers started with docker-compose up
 - `docker-compose ps`: List all containers managed by Docker Compose
 - `docker-compose logs`: View the logs of containers managed by Docker Compose
+
+### Transfering Docker Image to another host 
+- You will need to save the Docker image as a tar file:
+
+` docker save -o <IMAGE NAME> image.tar `
+- Once the command completes, you will have a tar file containing the Docker image.
+- Then copy your image to a new system with regular file transfer tools such as cp, scp, or rsync (preferred for big files). After that you will have to load the image into Docker:
+
+` docker load -i <image.tar>`
+
+
