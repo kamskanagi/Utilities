@@ -1,6 +1,6 @@
-# Tutorial: Working with MySQL in Python
+# Working with MySQL in Python
 
-In this tutorial, we will cover the basics of working with MySQL in Python using the `mysql.connector` library. We will learn how to connect to a MySQL database, create tables, insert data, perform queries, and modify tables. By the end of this tutorial, you should have a good understanding of how to interact with a MySQL database in Python.
+Here, we will cover the basics of working with MySQL in Python using the `mysql.connector` library. We will learn how to connect to a MySQL database, create tables, insert data, perform queries, and modify tables. By the end of this tutorial, you should have a good understanding of how to interact with a MySQL database in Python.
 
 ### Prerequisites:
 - MySQL Server installed and running on your local machine.
@@ -88,4 +88,4 @@ mycursor.execute("ALTER TABLE Users CHANGE name first_name VARCHAR(50)")
 ```
 
 ### Conclusion
-In this tutorial, we learned the basics of connecting to a MySQL database in Python using the `mysql.connector` library. We explored creating tables, inserting data, performing queries, and modifying tables. With this knowledge, you can start building more complex applications that interact with MySQL databases using Python.
+We learned the basics of connecting to a MySQL database in Python using the `mysql.connector` library. We explored creating tables, inserting data, performing queries, and modifying tables. With this knowledge, you can start building more complex applications that interact with MySQL databases using Python.
